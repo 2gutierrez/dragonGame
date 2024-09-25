@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed; /* Add background image */
+    background-size: cover; /* Ensure the image covers the whole background */
+    color: #f4f4f4;
+  }
+  
+  #game {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(22, 33, 62, 0.9); /* Slight transparency for game area */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #e6e6e6;
+  }
+  
+  #stats, #controls, #monsterStats, #text {
+    margin-bottom: 20px;
+  }
+  
+  .stat {
+    display: block;
+    margin: 10px 0;
+    color: #f4f4f4;
+  }
+  
+  button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 600px) {
+    #game {
+      padding: 15px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  
+    .stat {
+      font-size: 14px;
+    }
+  
+    #text {
+      font-size: 16px;
+    }
+  }
+  
